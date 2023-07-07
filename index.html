@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsividade.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon" sizes="32x32">
+    
+    <title>News homepage</title>
+</head>
+<body>
+    <header>
+
+        <img src="images/logo.svg" alt="Logo" id="logo">
+        <div id="menu-button"></div>
+        <div id="menu-desktop">
+            <div id="home-desktop" class="menu-desktop-op"><h1>Home</h1></div>
+            <div id="new-desktop" class="menu-desktop-op"><h1>New</h1></div>
+            <div id="popular-desktop" class="menu-desktop-op"><h1>Popular</h1></div>
+            <div id="trending-desktop" class="menu-desktop-op"><h1>Trending</h1></div>
+            <div id="categories-desktop" class="menu-desktop-op"><h1>Categories</h1></div>
+        </div>
+        
+    </header>
+
+
+    <!--Menu-->
+    <div id="container">
+        <div id="shadow"></div>
+        <div id="menu">
+
+            <div id="menu-close">
+                <div id="button-menu-close"></div>
+            </div>
+            <div id="home" class="menu-op">
+                <h1>Home</h1>
+            </div>
+            <div id="new" class="menu-op">
+                <h1>New</h1>
+            </div>
+            <div id="popular" class="menu-op">
+                <h1>Popular</h1>
+            </div>
+            <div id="trending" class="menu-op">
+                <h1>Trending</h1>
+            </div>
+            <div id="categories" class="menu-op">
+                <h1>
+                Categories
+            </h1></div>
+        </div>
+    </div>
+    <!--Menu-->
+
+    <!--Main-->
+
+    <main>
+        <div id="template-desktop">
+            <picture>
+                        <source media="(max-width: 750px)" srcset="images/image-web-3-mobile.jpg" type="image/jpg">
+                        <img src="images/image-web-3-desktop.jpg" alt="Image" id="img1">
+                    </picture>
+            <h1 id="title1">The Bright Future of Web 3.0?</h1>
+            <p id="paragraph1"> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+            But is it really fulfilling its promise?</p>
+            <button id="readmore">R E A D M O R E</button>
+        </div>
+
+        <div id="news">
+            <h1 id="new">New</h1>
+            <h2>Hydrogen VS Electric Cars</h2>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            <hr>
+            <h2>The Downsides of AI Artistry</h2>
+            <p>What are the possible adverse effects of on-demand AI image generation?</p>
+            <hr>
+            <h2>Is VC Funding Drying Up?</h2>
+            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.
+            </p>
+        </div>
+
+        <div id="otherposts">
+            <div id="retro" class="posts">
+                <img src="images/image-retro-pcs.jpg" alt="Retro">
+                <div class="summary">
+                    <h1 class="summary-title">01</h1>
+                    <h2 class="summary-title2">Reviving Retro PCs</h2>
+                    <p class="summary-paragraph">What happens when old PCs are given modern upgrades?</p>
+                </div>
+            </div>
+            <div id="top10" class="posts">
+                <img src="images/image-top-laptops.jpg" alt="Laptop">
+                <div class="summary">
+                    <h1 class="summary-title">02</h1>
+                    <h2 class="summary-title2">Top 10 Laptops of 2022</h2>
+                    <p class="summary-paragraph">Our best picks for various needs and budgets.</p>
+                </div>
+            </div>
+            <div id="growh" class="posts">
+                <img src="images/image-gaming-growth.jpg" alt="">
+                <div class="summary">
+                    <h1 class="summary-title">03</h1>
+                    <h2 class="summary-title2">The Growth of Gaming</h2>
+                    <p class="summary-paragraph">How the pandemic has sparked fresh opportunities.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="js.js"></script>
+
+    <!--Main-->
+</body>
+</html>
